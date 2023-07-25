@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=IBM+Plex+Sans:wght@200;300;400;500;600&display=swapdisplay');
+@import url('https://fonts.googleapis.com/css2?');
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+
+/* header navigation */
+
+
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 50px;
+}
+
+.navigation li:last-child {
+    margin-right: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: IBM Plex Sans;
+    font-weight: 500;
+    line-height: 15px;
+    word-wrap: break-word;
+
+}
+
+.navigation li.active a {
+    color: #1F8E3D;
+
+}
+
+/* information card */
+.information-card {
+    width: 448px;
+    height: 423px;
+    background: white;
+    box-shadow: -4px -4px 18px rgba(238, 238, 238, 1),6px -4px 17px rgba(238, 238, 238, 1);
+    border-radius: 20px;
+    border: 1px rgba(255, 255, 255, 0.20) solid
+}
+.information-card-2{
+    width: 448px;
+    height: 423px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: -4px -4px 18px rgba(238, 238, 238, 1), 10px 10px 17px rgb(88, 191, 115,.45);
+    border: 1px rgba(255, 255, 255, 0.20) solid
+}
+.card{
+    width: 510px; 
+    height: 72px;
+    background: white;
+    box-shadow : -9px -9px 16px rgba(238, 238, 238, 0.60),6px 6px 16px rgba(238, 238, 238, 0.60);
+    border-radius: 20px;
+    border: 1px rgba(255, 255, 255, 0.20) solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+.card:first-child{
+    box-shadow: -2px -2px 18px rgba(238, 238, 238, 1), 2px 2px 17px rgba(185, 253, 203, 0.45);
+}
+.card p{
+    color: #161D25;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word
+} 
+.column-chart-card{
+     width: 184.99px;
+     height: 196px; 
+     background: white;
+     box-shadow: -9px -9px 16px rgba(238, 238, 238, 0.60),7px 7px 12px rgba(238, 238, 238, 0.60);
+     border-radius: 20px;
+     border: 1px rgba(255, 255, 255, 0.20) solid
+}
+
+
+/* custome table */
+
+table.GeneratedTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    color: #000000;
+    border-radius: 10px;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    padding: 20px 10px;
+  }
+  table.GeneratedTable td {
+    text-align: center;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+  }
+  
+  table.GeneratedTable thead {
+    background-color: #BBE5C9;
+  }
+ 
